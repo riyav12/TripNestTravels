@@ -1,0 +1,58 @@
+@use '../base/variables';
+@use '../base/mixins';
+
+.site-header {
+  box-shadow: none;
+}
+
+.site-logo img {
+  height: 60px;
+  margin-left: -12px;
+}
+
+.main-menu-wrapper {
+  margin-right: -13px;
+}
+
+.navbar-nav .nav-link {
+  color: variables.$color-button;
+  font-family: variables.$font-secondary;
+ @extend .font-weight-regular;
+}
+
+.navbar-nav .nav-link:hover {
+  color: variables.$color-button-hover;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.main-menu {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: variables.$color-primary;
+    @include mixins.font-size(1, 1.25); // 16px = 1rem
+   @extend .font-weight-medium;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: variables.$color-link-hover;
+    }
+  }
+}

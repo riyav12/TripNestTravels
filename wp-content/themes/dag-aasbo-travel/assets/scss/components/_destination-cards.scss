@@ -1,0 +1,41 @@
+@use '../base/variables';
+@use '../base/mixins';
+@use '../helpers/helpers';
+
+.destination-card {
+  min-height: 340px;
+  box-shadow: 0 2px 12px $box-shadow-medium;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  position: relative;
+
+  
+}
+
+.no-image-box {
+  height: 200px;
+}
+
+.info-box {
+  background-color: $color-white;
+  padding: 0.5rem 1rem;
+  min-width: 91%;
+  z-index: 2;
+
+  p {
+    margin-bottom: 0;
+    font-family: $font-secondary;
+
+    &.country-name {
+      font-weight: 400;
+        @include mixins.font-size(1, 1.6);  // 16px
+      color: $color-info-dark; // or fallback: #305C70;
+    }
+
+    &.destination-title {
+      font-weight: 500;
+      @include mixins.font-size(1.25, 1.8); // 20px
+      color: $color-primary; // or fallback: #003148;
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "key": "group_footer_settings",
+  "title": "Footer Settings",
+  "fields": [
+    {
+      "key": "field_footer_logo",
+      "label": "Footer Logo",
+      "name": "footer_logo",
+      "type": "image",
+      "return_format": "array",
+      "preview_size": "medium",
+      "library": "all"
+    },
+    {
+      "key": "field_footer_description",
+      "label": "Footer Description",
+      "name": "footer_description",
+      "type": "textarea"
+    },
+    {
+      "key": "field_footer_buttons",
+      "label": "Footer Buttons",
+      "name": "footer_buttons",
+      "type": "repeater",
+      "sub_fields": [
+        {
+          "key": "field_button_label",
+          "label": "Button Label",
+          "name": "label",
+          "type": "text"
+        },
+        {
+          "key": "field_button_link",
+          "label": "Button Link",
+          "name": "link",
+          "type": "url"
+        },
+        {
+          "key": "field_button_style",
+          "label": "Button Style",
+          "name": "style",
+          "type": "select",
+          "choices": {
+            "light": "Light",
+            "dark": "Dark"
+          },
+          "default_value": "light"
+        }
+      ],
+      "min": 0,
+      "max": 2
+    },
+    {
+      "key": "field_footer_columns",
+      "label": "Footer Columns",
+      "name": "footer_columns",
+      "type": "repeater",
+      "sub_fields": [
+        {
+          "key": "field_column_heading",
+          "label": "Column Heading",
+          "name": "heading",
+          "type": "text"
+        },
+        {
+          "key": "field_column_links",
+          "label": "Column Links",
+          "name": "links",
+          "type": "repeater",
+          "sub_fields": [
+            {
+              "key": "field_link_text",
+              "label": "Link Text",
+              "name": "text",
+              "type": "text"
+            },
+            {
+              "key": "field_link_url",
+              "label": "Link URL",
+              "name": "url",
+              "type": "url"
+            }
+          ],
+          "min": 0
+        }
+      ],
+      "min": 0,
+      "max": 4
+    },
+    {
+      "key": "field_footer_copyright",
+      "label": "Copyright Text",
+      "name": "footer_copyright",
+      "type": "text"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "options_page",
+        "operator": "==",
+        "value": "theme-options"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": ""
+}

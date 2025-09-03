@@ -1,0 +1,38 @@
+.archive-reiser,
+.page-template-archive-reise,
+.aktuelle-reiser {
+  background-color: $color-white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.archive-reiser h2,
+.page-template-archive-reise h2 {
+  @include font-size(3, 1.2); // 48px
+  @extend .font-weight-semi-bold;
+  color: $color-secondary;
+  font-family: $font-primary;
+}
+
+.archive-reiser p,
+.page-template-archive-reise p {
+  @include font-size(1.125, 1.6);  // 18px
+  color: $color-light;
+  @extend .font-weight-regular;
+  font-family: $font-secondary;
+}
+
+.archive-reiser .btn-primary,
+.page-template-archive-reise .btn-primary {
+  background-color: $color-button;
+  border: none;
+  font-family: $font-secondary;
+  @include font-size(1, 1.5); // 16px
+  padding: 10px 30px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $color-button-hover;
+  }
+}

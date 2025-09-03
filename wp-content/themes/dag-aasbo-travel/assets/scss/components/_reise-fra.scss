@@ -1,0 +1,48 @@
+@use '../base/variables';
+@use '../base/mixins';
+@use '../helpers/helpers';
+
+.reise-fra {
+  h2 {
+    @include mixins.font-size(2.5); // default line-height 1.5
+    color: variables.$color-secondary;
+    margin-bottom: 12px;
+    font-family: variables.$font-primary;
+    @extend .font-weight-regular;
+  }
+
+
+  p {
+    @include mixins.font-size(1.25, 1.6);
+    color: variables.$color-light;
+    margin-bottom: 20px;
+    font-family: variables.$font-secondary;
+    @extend .font-weight-regular;
+  }
+
+   ul {
+    @include mixins.font-size(1.25, 2);
+    list-style-type: disc;
+    padding-left: 20px;
+    font-family: variables.$font-secondary;
+    color: variables.$color-button;
+    @extend .font-weight-semi-bold;
+    text-decoration: underline;
+
+    li a {
+      color: variables.$color-button;
+      text-decoration: none;
+    }
+  }
+
+  @include mixins.respond(md) {
+    h2 {
+      @include mixins.font-size(1.75);
+    }
+
+    p,
+    ul {
+       @include mixins.font-size(1.125);
+    }
+  }
+}

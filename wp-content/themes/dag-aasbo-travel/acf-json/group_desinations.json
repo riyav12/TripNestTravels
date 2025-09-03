@@ -1,0 +1,47 @@
+{
+  "key": "group_destinations",
+  "title": "Destinations Fields",
+  "fields": [
+    {
+      "key": "field_country_name",
+      "label": "Country",
+      "name": "country_name",
+      "type": "text"
+    },
+    {
+      "key": "field_transport_type",
+      "label": "Transport Type",
+      "name": "transport_type",
+      "type": "select",
+      "choices": {
+        "fly": "Fly",
+        "buss": "Buss",
+        "cruise": "Cruise"
+      },
+      "allow_null": 0,
+      "multiple": 0,
+      "ui": 1
+    },
+    {
+      "key": "field_destination_image",
+      "label": "Destination Image",
+      "name": "destination_image",
+      "type": "image",
+      "return_format": "url",
+      "preview_size": "medium"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "destination"
+      }
+    ]
+  ],
+  "position": "normal",
+  "style": "default",
+  "active": true,
+  "description": ""
+}

@@ -1,0 +1,31 @@
+.shop-nav-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.shop-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.shop-nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.shop-nav a {
+  color: $color-dark-gray;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.shop-nav a:hover {
+  color: $color-link-blue;
+}
+
+.products columns-4{
+    display:inline-flex !important;
+    gap: 17px !important;
+
+}

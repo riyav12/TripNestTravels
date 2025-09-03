@@ -1,0 +1,84 @@
+.destinasjoner {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.destinasjoner h2 {
+  font-family: $font-primary;
+  @include font-size(3, 1.2); // 3rem = 48px
+   @extend .font-weight-regular;
+  color: $color-secondary;
+}
+
+.destinasjoner .filter-buttons {
+  margin-bottom: 30px;
+}
+
+.destinasjoner .filter-buttons button {
+  border: 1px solid $color-border-light;
+  border-radius: 8px;
+  padding: 6px 16px;
+  font-family: $font-secondary;
+  @include font-size(1, 1.5); // 1rem = 16px
+   @extend .font-weight-regular;
+  color: $color-light;
+  background-color: $color-white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.destinasjoner .filter-buttons button.active,
+.destinasjoner .filter-buttons button:focus {
+  background-color: $color-badge-bg;
+  color: $color-button;
+  border-color: $color-border-light;
+}
+
+.isotope-container {
+  transition: all 0.4s ease-in-out;
+}
+
+.isotope-item {
+  transition: transform 0.3s ease;
+}
+
+/* Card Styling */
+.destinasjoner .rounded {
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.destinasjoner .img-fluid {
+  height: 510px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+
+.destinasjoner .position-absolute {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.destinasjoner .small-text-box {
+  width: 90%;
+  max-width: 95%;
+  min-width: 0;
+  left: 0;
+  right: 0;
+}
+
+.destinasjoner .small-text-box p {
+  margin-bottom: 0;
+  font-family: $font-secondary;
+}
+
+.destinasjoner .small-text-box p:first-child {
+  @include font-size(1, 1.5);  // 1rem = 16px
+  @extend .font-weight-regular;
+  color: $color-info-dark;
+}
+
+.destinasjoner .small-text-box p:last-child {
+   @include font-size(1.25, 1.4); // 1.25rem = 20px
+   @extend .font-weight-medium;
+  color: $color-primary;
+}

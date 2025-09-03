@@ -1,0 +1,2237 @@
+.font-weight-regular, .archive-reiser p,
+.page-template-archive-reise p, .footer-wysiwyg, .testimonial-wysiwyg p, .about-wysiwyg, .cruise-section p, .cruise-section h2, .reise-fra p, .reise-fra h2, .testimonials .testimonial-name, .testimonials .testimonial-text, .description, .lead-text, .custom-heading, .custom-badge, .group-help .group-description, .group-help .group-title, .group-help p.lead, .group-help .info-card p, .navbar-nav .nav-link, .destinasjoner .small-text-box p:first-child, .destinasjoner .filter-buttons button, .destinasjoner h2, .text-muted small, .text-muted small .mb-1, .badge-light-blue, .aktuelle-reiser p, .hero-overlay .hero-subtitle {
+  font-weight: 400;
+}
+
+.font-weight-medium, .product-price, .group-wysiwyg, .hero-wysiwyg, .group-help .info-card .btn, .main-menu a, .destinasjoner .small-text-box p:last-child, .hero-overlay .hero-title {
+  font-weight: 500;
+}
+
+.font-weight-semi-bold, .archive-reiser h2,
+.page-template-archive-reise h2, .wysiwyg-content h1, .wysiwyg-content h2, .wysiwyg-content h3, .wysiwyg-content h4, .wysiwyg-content h5, .wysiwyg-content h6, .site-footer h4, .reise-fra ul, .group-help h2, .group-help .info-card h6, .fw-semibold .mb-1, .reise-card .fw-semibold, .aktuelle-reiser h2 {
+  font-weight: 600;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.hero {
+  background: none;
+  padding: 0;
+}
+.hero .hero-bg {
+  background-image: var(--hero-bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  min-height: 70vh;
+  position: relative;
+}
+
+.hero-overlay {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem 1rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-overlay .hero-title {
+  font-family: "Poppins", sans-serif;
+  color: #003148;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+.hero-overlay .hero-subtitle {
+  font-family: "DM Sans", sans-serif;
+  color: #003148;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.trustpilot-img {
+  height: 28px;
+  margin-top: -2px;
+}
+
+.input-group.search-bar {
+  max-width: 663px;
+  width: 100%;
+  height: 59px;
+  border-radius: 12px;
+}
+.input-group.search-bar .input-group-text {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px 0 0 12px;
+  padding: 0 20px;
+}
+.input-group.search-bar .input-group-text .search-icon {
+  width: 18px;
+  height: 18px;
+}
+.input-group.search-bar .form-control {
+  border: none;
+  border-radius: 0 12px 12px 0;
+  height: 100%;
+  padding-left: 0;
+}
+.input-group.search-bar .form-control:focus {
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .hero-overlay .hero-title {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+  .hero-overlay .hero-subtitle {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .trustpilot-img {
+    height: 22px;
+  }
+  .input-group.search-bar {
+    width: 90%;
+  }
+}
+.font-weight-regular, .archive-reiser p,
+.page-template-archive-reise p, .footer-wysiwyg, .testimonial-wysiwyg p, .about-wysiwyg, .cruise-section p, .cruise-section h2, .reise-fra p, .reise-fra h2, .testimonials .testimonial-name, .testimonials .testimonial-text, .description, .lead-text, .custom-heading, .custom-badge, .group-help .group-description, .group-help .group-title, .group-help p.lead, .group-help .info-card p, .navbar-nav .nav-link, .destinasjoner .small-text-box p:first-child, .destinasjoner .filter-buttons button, .destinasjoner h2, .text-muted small, .text-muted small .mb-1, .badge-light-blue, .aktuelle-reiser p, .hero-overlay .hero-subtitle {
+  font-weight: 400;
+}
+
+.font-weight-medium, .product-price, .group-wysiwyg, .hero-wysiwyg, .group-help .info-card .btn, .main-menu a, .destinasjoner .small-text-box p:last-child, .hero-overlay .hero-title {
+  font-weight: 500;
+}
+
+.font-weight-semi-bold, .archive-reiser h2,
+.page-template-archive-reise h2, .wysiwyg-content h1, .wysiwyg-content h2, .wysiwyg-content h3, .wysiwyg-content h4, .wysiwyg-content h5, .wysiwyg-content h6, .site-footer h4, .reise-fra ul, .group-help h2, .group-help .info-card h6, .fw-semibold .mb-1, .reise-card .fw-semibold, .aktuelle-reiser h2 {
+  font-weight: 600;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.usp-wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.usp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+@media (max-width: 576px) {
+  .usp {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+}
+
+.usp-item {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "DM Sans", sans-serif;
+  flex: 0 0 auto;
+}
+@media (max-width: 576px) {
+  .usp-item {
+    justify-content: flex-start;
+  }
+}
+
+.usp-icon {
+  width: 31px;
+  height: 31px;
+}
+
+.aktuelle-reiser {
+  background-color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.aktuelle-reiser h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #2B3B42;
+  font-family: "Poppins", sans-serif;
+}
+
+.aktuelle-reiser p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #4B606A;
+  font-family: "DM Sans", sans-serif;
+}
+
+.aktuelle-reiser a {
+  color: rgba(33, 37, 19, 0.75);
+  text-decoration: underline;
+}
+
+.reise-image-wrapper {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+
+.reise-image-wrapper img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.reise-image-wrapper .badge {
+  font-size: 0.75rem;
+  line-height: 1.3;
+  padding: 0.35em 0.6em;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #333333;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.reise-image-wrapper .badge img {
+  width: 16px;
+  height: 16px;
+}
+
+.reise-card .p-2 {
+  padding: 16px !important;
+}
+
+.reise-card .fw-semibold {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-family: "DM Sans", sans-serif;
+  color: #2B3B42;
+}
+
+.reise-card p.text-muted {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "DM Sans", sans-serif;
+  color: #4B606A !important;
+  margin-bottom: 0.5rem;
+}
+
+.reise-card p.text-muted img {
+  margin-right: 6px;
+}
+
+.badge-light-blue {
+  background-color: #CFECF8;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: #000000;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.btn.btn-primary {
+  background-color: #135B7C;
+  border: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 10px 30px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn.btn-primary:hover {
+  background-color: #104f6f;
+}
+
+.fw-semibold .mb-1 {
+  color: #2B3B42;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.text-muted small .mb-1 {
+  color: #4B606A;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.text-muted small {
+  color: #4B606A;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.reise-btn {
+  background-color: #135B7C;
+  border: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  display: inline-block;
+}
+.reise-btn:hover {
+  background-color: #104f6f;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.destinasjoner {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.destinasjoner h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #2B3B42;
+}
+
+.destinasjoner .filter-buttons {
+  margin-bottom: 30px;
+}
+
+.destinasjoner .filter-buttons button {
+  border: 1px solid #e6f3f9;
+  border-radius: 8px;
+  padding: 6px 16px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4B606A;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.destinasjoner .filter-buttons button.active,
+.destinasjoner .filter-buttons button:focus {
+  background-color: #CFECF8;
+  color: #135B7C;
+  border-color: #e6f3f9;
+}
+
+.isotope-container {
+  transition: all 0.4s ease-in-out;
+}
+
+.isotope-item {
+  transition: transform 0.3s ease;
+}
+
+/* Card Styling */
+.destinasjoner .rounded {
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.destinasjoner .img-fluid {
+  height: 510px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.75rem;
+}
+
+.destinasjoner .position-absolute {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.destinasjoner .small-text-box {
+  width: 90%;
+  max-width: 95%;
+  min-width: 0;
+  left: 0;
+  right: 0;
+}
+
+.destinasjoner .small-text-box p {
+  margin-bottom: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+.destinasjoner .small-text-box p:first-child {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #305C70;
+}
+
+.destinasjoner .small-text-box p:last-child {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #003148;
+}
+
+.site-header {
+  box-shadow: none;
+}
+
+.site-logo img {
+  height: 60px;
+  margin-left: -12px;
+}
+
+.main-menu-wrapper {
+  margin-right: -13px;
+}
+
+.navbar-nav .nav-link {
+  color: #135B7C;
+  font-family: "DM Sans", sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #104f6f;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.main-menu {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-menu li {
+  list-style: none;
+}
+.main-menu a {
+  text-decoration: none;
+  color: #003148;
+  font-size: 1rem;
+  line-height: 1.25;
+  transition: color 0.3s ease;
+}
+.main-menu a:hover {
+  color: #007bff;
+}
+
+.font-weight-regular, .archive-reiser p,
+.page-template-archive-reise p, .footer-wysiwyg, .testimonial-wysiwyg p, .about-wysiwyg, .cruise-section p, .cruise-section h2, .reise-fra p, .reise-fra h2, .testimonials .testimonial-name, .testimonials .testimonial-text, .description, .lead-text, .custom-heading, .custom-badge, .hero-overlay .hero-subtitle, .aktuelle-reiser p, .badge-light-blue, .text-muted small .mb-1, .text-muted small, .destinasjoner h2, .destinasjoner .filter-buttons button, .destinasjoner .small-text-box p:first-child, .navbar-nav .nav-link, .group-help .info-card p, .group-help p.lead, .group-help .group-title, .group-help .group-description {
+  font-weight: 400;
+}
+
+.font-weight-medium, .product-price, .group-wysiwyg, .hero-wysiwyg, .hero-overlay .hero-title, .destinasjoner .small-text-box p:last-child, .main-menu a, .group-help .info-card .btn {
+  font-weight: 500;
+}
+
+.font-weight-semi-bold, .archive-reiser h2,
+.page-template-archive-reise h2, .wysiwyg-content h1, .wysiwyg-content h2, .wysiwyg-content h3, .wysiwyg-content h4, .wysiwyg-content h5, .wysiwyg-content h6, .site-footer h4, .reise-fra ul, .aktuelle-reiser h2, .reise-card .fw-semibold, .fw-semibold .mb-1, .group-help .info-card h6, .group-help h2 {
+  font-weight: 600;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.group-help {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.group-help .group-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+@media (max-width: 768px) {
+  .group-help .group-image {
+    margin-bottom: 2rem;
+  }
+}
+
+.group-help .info-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  transition: box-shadow 0.3s ease;
+}
+.group-help .info-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+.group-help .info-card h6 {
+  font-family: "Poppins", sans-serif;
+  color: #1f2937;
+}
+.group-help .info-card p {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  font-family: "DM Sans", sans-serif;
+  color: #4B606A;
+  margin-bottom: 1rem;
+}
+.group-help .info-card .btn {
+  background-color: #135B7C;
+  color: #ffffff;
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.group-help .info-card .btn:hover {
+  background-color: #104f6f;
+}
+
+.group-help h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-family: "Poppins", sans-serif;
+  color: #1f2937;
+}
+
+.group-help p.lead {
+  font-size: 1rem;
+  line-height: 1.7;
+  font-family: "DM Sans", sans-serif;
+  color: #4B606A;
+  margin-bottom: 1.5rem;
+}
+
+.bg-light-blue {
+  background-color: #EFF7FB;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.group-help .group-title {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  color: #1f2937;
+  text-align: center;
+}
+
+.group-help .group-description {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+  color: #4B606A;
+}
+
+.about-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.custom-badge {
+  border-radius: 16px;
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #3D5059;
+  background-color: #f8f9fa;
+  border: 1px solid #dddddd;
+  display: inline-block;
+}
+
+.custom-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #2B3B42;
+  font-family: "Poppins", sans-serif;
+}
+
+.lead-text {
+  color: #4B606A;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  color: #4B606A;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 1rem;
+  max-width: 95%;
+}
+
+@media (max-width: 768px) {
+  .custom-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  .lead-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .description {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+}
+.testimonials .testimonial-card {
+  background-color: #EFF7FB !important;
+  border-radius: var(--bs-border-radius) !important;
+}
+.testimonials .testimonial-text {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+.testimonials .testimonial-name {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+.testimonials .object-fit-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.font-weight-regular, .archive-reiser p,
+.page-template-archive-reise p, .footer-wysiwyg, .testimonial-wysiwyg p, .about-wysiwyg, .cruise-section p, .cruise-section h2, .hero-overlay .hero-subtitle, .aktuelle-reiser p, .badge-light-blue, .text-muted small .mb-1, .text-muted small, .destinasjoner h2, .destinasjoner .filter-buttons button, .destinasjoner .small-text-box p:first-child, .navbar-nav .nav-link, .group-help .info-card p, .group-help p.lead, .group-help .group-title, .group-help .group-description, .custom-badge, .custom-heading, .lead-text, .description, .testimonials .testimonial-text, .testimonials .testimonial-name, .reise-fra h2, .reise-fra p {
+  font-weight: 400;
+}
+
+.font-weight-medium, .product-price, .group-wysiwyg, .hero-wysiwyg, .hero-overlay .hero-title, .destinasjoner .small-text-box p:last-child, .main-menu a, .group-help .info-card .btn {
+  font-weight: 500;
+}
+
+.font-weight-semi-bold, .archive-reiser h2,
+.page-template-archive-reise h2, .wysiwyg-content h1, .wysiwyg-content h2, .wysiwyg-content h3, .wysiwyg-content h4, .wysiwyg-content h5, .wysiwyg-content h6, .site-footer h4, .aktuelle-reiser h2, .reise-card .fw-semibold, .fw-semibold .mb-1, .group-help .info-card h6, .group-help h2, .reise-fra ul {
+  font-weight: 600;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.reise-fra h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #2B3B42;
+  margin-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+}
+.reise-fra p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #4B606A;
+  margin-bottom: 20px;
+  font-family: "DM Sans", sans-serif;
+}
+.reise-fra ul {
+  font-size: 1.25rem;
+  line-height: 2;
+  list-style-type: disc;
+  padding-left: 20px;
+  font-family: "DM Sans", sans-serif;
+  color: #135B7C;
+  text-decoration: underline;
+}
+.reise-fra ul li a {
+  color: #135B7C;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .reise-fra h2 {
+    font-size: 1.75rem;
+    line-height: 1.5;
+  }
+  .reise-fra p,
+  .reise-fra ul {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+}
+
+.cruise-section h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #2B3B42;
+  font-family: "Poppins", sans-serif;
+}
+
+.cruise-section p {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #4B606A;
+  font-family: "DM Sans", sans-serif;
+}
+
+.cruise-section .btn-primary {
+  background-color: #135B7C;
+  font-family: "DM Sans", sans-serif;
+}
+
+.font-weight-regular, .archive-reiser p,
+.page-template-archive-reise p, .footer-wysiwyg, .testimonial-wysiwyg p, .about-wysiwyg, .hero-overlay .hero-subtitle, .aktuelle-reiser p, .badge-light-blue, .text-muted small .mb-1, .text-muted small, .destinasjoner h2, .destinasjoner .filter-buttons button, .destinasjoner .small-text-box p:first-child, .navbar-nav .nav-link, .group-help .info-card p, .group-help p.lead, .group-help .group-title, .group-help .group-description, .custom-badge, .custom-heading, .lead-text, .description, .testimonials .testimonial-text, .testimonials .testimonial-name, .reise-fra h2, .reise-fra p, .cruise-section h2, .cruise-section p {
+  font-weight: 400;
+}
+
+.font-weight-medium, .product-price, .group-wysiwyg, .hero-wysiwyg, .hero-overlay .hero-title, .destinasjoner .small-text-box p:last-child, .main-menu a, .group-help .info-card .btn {
+  font-weight: 500;
+}
+
+.font-weight-semi-bold, .archive-reiser h2,
+.page-template-archive-reise h2, .wysiwyg-content h1, .wysiwyg-content h2, .wysiwyg-content h3, .wysiwyg-content h4, .wysiwyg-content h5, .wysiwyg-content h6, .site-footer h4, .aktuelle-reiser h2, .reise-card .fw-semibold, .fw-semibold .mb-1, .group-help .info-card h6, .group-help h2, .reise-fra ul {
+  font-weight: 600;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.destination-card {
+  min-height: 340px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.no-image-box {
+  height: 200px;
+}
+
+.info-box {
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+  min-width: 91%;
+  z-index: 2;
+}
+.info-box p {
+  margin-bottom: 0;
+  font-family: "DM Sans", sans-serif;
+}
+.info-box p.country-name {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #305C70;
+}
+.info-box p.destination-title {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #003148;
+}
+
+.font-weight-regular, .archive-reiser p,
+.page-template-archive-reise p, .footer-wysiwyg, .testimonial-wysiwyg p, .about-wysiwyg, .hero-overlay .hero-subtitle, .aktuelle-reiser p, .badge-light-blue, .text-muted small .mb-1, .text-muted small, .destinasjoner h2, .destinasjoner .filter-buttons button, .destinasjoner .small-text-box p:first-child, .navbar-nav .nav-link, .group-help .info-card p, .group-help p.lead, .group-help .group-title, .group-help .group-description, .custom-badge, .custom-heading, .lead-text, .description, .testimonials .testimonial-text, .testimonials .testimonial-name, .reise-fra h2, .reise-fra p, .cruise-section h2, .cruise-section p {
+  font-weight: 400;
+}
+
+.font-weight-medium, .product-price, .group-wysiwyg, .hero-wysiwyg, .hero-overlay .hero-title, .destinasjoner .small-text-box p:last-child, .main-menu a, .group-help .info-card .btn {
+  font-weight: 500;
+}
+
+.font-weight-semi-bold, .archive-reiser h2,
+.page-template-archive-reise h2, .wysiwyg-content h1, .wysiwyg-content h2, .wysiwyg-content h3, .wysiwyg-content h4, .wysiwyg-content h5, .wysiwyg-content h6, .aktuelle-reiser h2, .reise-card .fw-semibold, .fw-semibold .mb-1, .group-help .info-card h6, .group-help h2, .reise-fra ul, .site-footer h4 {
+  font-weight: 600;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.footer-logo {
+  max-width: 180px;
+}
+
+.footer-description {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.fs-15 {
+  font-size: 0.9375rem;
+  line-height: 1;
+}
+
+.ml-7 {
+  margin-left: 7px;
+}
+
+.ml-neg-7 li a {
+  margin-left: -7px;
+}
+
+.pl-19 {
+  padding-left: 19px;
+}
+
+.pl-22 {
+  padding-left: 22px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.pl-60 {
+  padding-left: 60px;
+}
+
+/* Footer Styles */
+.site-footer {
+  background-color: #fff3ff;
+  font-family: "DM", sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  color: #000000;
+}
+
+.site-footer .footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.site-footer .footer-column {
+  flex: 1 1 200px;
+  min-width: 180px;
+}
+
+.site-footer .footer-column h4 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1d1d1d;
+  font-size: 1rem;
+  line-height: 1.125;
+}
+
+.site-footer .footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.site-footer .footer-column ul li {
+  margin-bottom: 6px;
+}
+
+.site-footer .footer-column ul li a {
+  color: #135B7C;
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.site-footer .footer-column ul li a:hover {
+  background-color: #e6f3f8;
+  color: #0076a5;
+  text-decoration: none;
+}
+
+.site-footer .highlight-link {
+  display: inline-block;
+  background-color: #e6f3f8;
+  color: #0076a5;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.site-footer .footer-link-btn {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  line-height: 1;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.site-footer .footer-link-btn.light {
+  background-color: #e6f3f8;
+  color: #005baa;
+}
+
+.site-footer .footer-link-btn.dark {
+  background-color: #005baa;
+  color: #ffffff;
+}
+
+.site-footer .footer-link-btn:hover {
+  opacity: 0.9;
+}
+
+.site-footer hr {
+  border-top: 1px solid #ccc;
+}
+
+.site-footer h4 {
+  font-size: 1rem;
+  line-height: 1.125;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #555555;
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-links a:hover {
+  background-color: #e6f3f8;
+  color: #0076a5;
+  text-decoration: none;
+}
+
+.footer-link-btn {
+  padding: 6px 14px;
+  font-size: 0.875rem;
+  line-height: 1;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-link-btn.light {
+  background: #eeeeee;
+  color: #000000;
+}
+
+.footer-link-btn.light:hover {
+  background: #dddddd;
+}
+
+.footer-link-btn.dark {
+  background: #000000;
+  color: #ffffff;
+}
+
+.footer-link-btn.dark:hover {
+  background: #333333;
+}
+
+.font-weight-regular, .archive-reiser p,
+.page-template-archive-reise p, .hero-overlay .hero-subtitle, .aktuelle-reiser p, .badge-light-blue, .text-muted small .mb-1, .text-muted small, .destinasjoner h2, .destinasjoner .filter-buttons button, .destinasjoner .small-text-box p:first-child, .navbar-nav .nav-link, .group-help .info-card p, .group-help p.lead, .group-help .group-title, .group-help .group-description, .custom-badge, .custom-heading, .lead-text, .description, .testimonials .testimonial-text, .testimonials .testimonial-name, .reise-fra h2, .reise-fra p, .cruise-section h2, .cruise-section p, .about-wysiwyg, .testimonial-wysiwyg p, .footer-wysiwyg {
+  font-weight: 400;
+}
+
+.font-weight-medium, .product-price, .hero-overlay .hero-title, .destinasjoner .small-text-box p:last-child, .main-menu a, .group-help .info-card .btn, .hero-wysiwyg, .group-wysiwyg {
+  font-weight: 500;
+}
+
+.font-weight-semi-bold, .archive-reiser h2,
+.page-template-archive-reise h2, .aktuelle-reiser h2, .reise-card .fw-semibold, .fw-semibold .mb-1, .group-help .info-card h6, .group-help h2, .reise-fra ul, .site-footer h4, .wysiwyg-content h1, .wysiwyg-content h2, .wysiwyg-content h3, .wysiwyg-content h4, .wysiwyg-content h5, .wysiwyg-content h6 {
+  font-weight: 600;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.wysiwyg-content h1, .wysiwyg-content h2, .wysiwyg-content h3, .wysiwyg-content h4, .wysiwyg-content h5, .wysiwyg-content h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+.wysiwyg-content ul, .wysiwyg-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+.wysiwyg-content ul li, .wysiwyg-content ol li {
+  margin-bottom: 0.5rem;
+}
+.wysiwyg-content blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #555555;
+  margin: 1rem 0;
+}
+.wysiwyg-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+.wysiwyg-content a {
+  color: #007bff;
+  text-decoration: underline;
+}
+.wysiwyg-content a:hover {
+  text-decoration: none;
+}
+.wysiwyg-content p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #666666;
+}
+.wysiwyg-content h2, .wysiwyg-content h3, .wysiwyg-content h4, .wysiwyg-content h5, .wysiwyg-content h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.wysiwyg-content ul, .wysiwyg-content ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.wysiwyg-content blockquote {
+  font-style: italic;
+  border-left: 3px solid #ccc;
+  padding-left: 1rem;
+  color: #555555;
+}
+
+.acf-wysiwyg {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #1a1a1a;
+}
+.acf-wysiwyg p {
+  margin-bottom: 1rem;
+}
+.acf-wysiwyg ul, .acf-wysiwyg ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.acf-wysiwyg li {
+  margin-bottom: 0.5rem;
+}
+.acf-wysiwyg a {
+  color: #005baa;
+  text-decoration: underline;
+}
+.acf-wysiwyg a:hover {
+  text-decoration: none;
+}
+
+.cruise-wysiwyg {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: var(--bs-body-color);
+}
+.cruise-wysiwyg p {
+  margin-bottom: 1.25rem;
+}
+.cruise-wysiwyg ul, .cruise-wysiwyg ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+.cruise-wysiwyg ul li, .cruise-wysiwyg ol li {
+  margin-bottom: 0.5rem;
+}
+.cruise-wysiwyg a {
+  color: var(--bs-primary);
+  text-decoration: underline;
+}
+.cruise-wysiwyg a:hover {
+  text-decoration: none;
+}
+
+.about-wysiwyg {
+  font-family: "DM Sans", sans-serif;
+  color: #4B606A;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 95%;
+}
+.about-wysiwyg p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.about-wysiwyg ul, .about-wysiwyg ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.about-wysiwyg li {
+  margin-bottom: 0.5rem;
+}
+.about-wysiwyg a {
+  color: #003148;
+  text-decoration: underline;
+}
+.about-wysiwyg a:hover {
+  color: rgb(0, 14.2916666667, 21);
+}
+.about-wysiwyg strong, .about-wysiwyg b {
+  font-weight: bold;
+}
+.about-wysiwyg em, .about-wysiwyg i {
+  font-style: italic;
+}
+
+.testimonial-wysiwyg p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #4B606A;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 1.25rem;
+}
+.testimonial-wysiwyg ul, .testimonial-wysiwyg ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.testimonial-wysiwyg ul li, .testimonial-wysiwyg ol li {
+  margin-bottom: 0.5rem;
+}
+.testimonial-wysiwyg a {
+  color: #135B7C;
+  text-decoration: underline;
+}
+.testimonial-wysiwyg a:hover {
+  text-decoration: none;
+}
+
+.hero-wysiwyg {
+  color: #003148;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  text-align: center;
+}
+.hero-wysiwyg p {
+  margin-bottom: 1rem;
+}
+.hero-wysiwyg strong, .hero-wysiwyg b {
+  font-weight: bold;
+}
+.hero-wysiwyg em, .hero-wysiwyg i {
+  font-style: italic;
+}
+@media (max-width: 768px) {
+  .hero-wysiwyg {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+}
+
+.group-wysiwyg {
+  font-family: "DM Sans", sans-serif;
+  color: #4B606A;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.group-wysiwyg p {
+  margin-bottom: 1rem;
+}
+.group-wysiwyg strong, .group-wysiwyg b {
+  font-weight: bold;
+}
+.group-wysiwyg em, .group-wysiwyg i {
+  font-style: italic;
+}
+.group-wysiwyg a {
+  color: #003148;
+  text-decoration: underline;
+}
+.group-wysiwyg a:hover {
+  color: rgb(0, 14.2916666667, 21);
+}
+
+.footer-wysiwyg {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+.footer-wysiwyg p {
+  margin-bottom: 0.75rem;
+}
+.footer-wysiwyg a {
+  color: #135B7C;
+  text-decoration: underline;
+}
+.footer-wysiwyg a:hover {
+  color: #0076a5;
+}
+
+.shop-nav-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.shop-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.shop-nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.shop-nav a {
+  color: #333333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.shop-nav a:hover {
+  color: #0073aa;
+}
+
+.products columns-4 {
+  display: inline-flex !important;
+  gap: 17px !important;
+}
+
+.shop-sidebar {
+  background: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #dddddd;
+}
+
+.shop-sidebar .widget {
+  margin-bottom: 25px;
+}
+
+.shop-sidebar .widget-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+/* Add in your child theme CSS */
+.shop-sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.shop-sidebar label {
+  cursor: pointer;
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* Product Grid Layout */
+.products {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Each Product Card */
+.product-card {
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Title */
+.product-title a {
+  font-size: 1rem;
+}
+
+/* Price */
+.product-price {
+  font-size: 1rem;
+  color: #2b2b2b;
+}
+
+/* Add to cart */
+.product-card .button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.product-card .button:hover {
+  background-color: #0056b3;
+}
+
+/* Hover shadow effect */
+.hover-shadow:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.quantity-picker {
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+  padding: 2px 4px;
+  max-width: 90px;
+}
+.quantity-picker button {
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  line-height: 1;
+  padding: 0 4px;
+}
+.quantity-picker .qty-input {
+  width: 30px;
+  font-size: 0.9rem;
+  text-align: center;
+  border: none;
+  background: transparent;
+}
+.quantity-picker .qty-input::-webkit-outer-spin-button, .quantity-picker .qty-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .cart {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+  .cart .quantity-picker,
+  .cart .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+/* Completely hide wishlist button text labels */
+.yith-wcwl-add-to-wishlist-button__label,
+.yith-wcwl-wishlistaddedbrowse,
+.yith-wcwl-wishlistexistsbrowse,
+.yith-wcwl-add-button > span,
+.feedback {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ===============================
+   WISHLIST ICON - GENERAL STYLES
+   =============================== */
+/* Base icon styles (empty heart by default) */
+.wishlist-icon,
+.wishlist-visible-icon,
+.wishlist-clean-icon i {
+  font-size: 20px;
+  color: #bbb; /* Light grey for default */
+  background: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+/* On hover - highlight heart */
+.wishlist-icon:hover,
+.wishlist-visible-icon:hover,
+.wishlist-clean-icon i:hover {
+  color: #e63946; /* Red on hover */
+}
+
+/* When product is already wishlisted */
+.wishlist-icon.exists,
+.wishlist-visible-icon.exists,
+.yith-wcwl-wishlistadded .wishlist-clean-icon i,
+.yith-wcwl-wishlistexists .wishlist-clean-icon i {
+  color: #e63946 !important; /* Red filled heart */
+}
+
+.yith-wcwl-share {
+  float: none;
+}
+
+/* ===============================
+   POSITIONING INSIDE PRODUCT CARD
+   =============================== */
+.product-image {
+  position: relative;
+}
+
+/* Absolute position top-right inside product image */
+.product-card .yith-wcwl-add-to-wishlist {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+/* Link style for the heart icon inside product card */
+.product-card .yith-wcwl-add-to-wishlist a {
+  color: #ccc;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.product-card .yith-wcwl-add-to-wishlist a:hover,
+.product-card .yith-wcwl-add-to-wishlist.exists a {
+  color: #e63946; /* Red heart when hovered or already added */
+}
+
+/* Optional alignment class (if needed) */
+.wishlist-button {
+  text-align: right;
+  padding-right: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+#active-filters ul {
+  list-style: none;
+  padding: 0;
+}
+
+#active-filters li {
+  display: inline-block;
+  margin: 4px;
+  padding: 6px 10px;
+  background: #f0f0f0;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.category-card {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  transition: transform 0.3s ease;
+}
+
+.category-card img {
+  max-width: 100%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.category-card h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+.category-box {
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.category-box:hover {
+  transform: scale(1.02);
+}
+
+.category-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+  width: 100%;
+  color: #fff;
+}
+
+.category-overlay h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Arrows - now positioned above */
+.custom-arrow {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  cursor: pointer;
+  position: absolute;
+  top: -50px; /* move arrows above the slider */
+  color: #fff;
+}
+
+.swiper-button-prev.custom-arrow {
+  left: 2px;
+  color: #fff;
+}
+
+.swiper-button-next.custom-arrow {
+  right: 2px;
+  color: #fff;
+}
+
+/* Hide arrows when disabled */
+.swiper-button-disabled {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Extra margin for "Shop Now" button */
+.shop-now-main {
+  margin-top: 60px;
+}
+
+.site-btn, .woocommerce a.checkout-button.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #222222;
+  color: #ffffff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.site-btn:hover, .woocommerce a.checkout-button.button:hover {
+  background-color: #444444;
+}
+.site-btn:disabled, .woocommerce a.checkout-button.button:disabled {
+  background-color: #999999;
+  cursor: not-allowed;
+}
+
+.site-input {
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.site-input:focus {
+  border-color: #222222;
+}
+.site-input::-moz-placeholder {
+  color: #aaaaaa;
+}
+.site-input::placeholder {
+  color: #aaaaaa;
+}
+
+.checkout-page {
+  padding: 2rem;
+}
+.checkout-page .col2-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.checkout-page .col-1, .checkout-page .col-2 {
+  flex: 1 1 48%;
+}
+.checkout-page h3#order_review_heading {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+.checkout-page #order_review {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #dddddd;
+}
+
+/* Updated Billing Form Layout */
+.custom-checkout-details {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.woocommerce-billing-fields .form-row {
+  margin-bottom: 24px;
+}
+
+/* Each field layout */
+.woocommerce-billing-fields .form-row-firstname,
+.woocommerce-billing-fields .form-row-lastname {
+  grid-column: span 6;
+}
+
+.woocommerce-billing-fields .form-row-country,
+.woocommerce-billing-fields .form-row-address_1,
+.woocommerce-billing-fields .form-row-address_2 {
+  grid-column: span 12;
+}
+
+.woocommerce-billing-fields .form-row-city,
+.woocommerce-billing-fields .form-row-postcode {
+  grid-column: span 6;
+}
+
+.woocommerce-billing-fields .form-row-state {
+  grid-column: span 6;
+}
+
+/* Ensure form inputs stretch full inside grid */
+.woocommerce-billing-fields .form-row input,
+.woocommerce-billing-fields .form-row select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.woocommerce-billing-fields__field-wrapper {
+  margin-left: -32px;
+}
+
+/* Checkout Page Two-Column Layout */
+.checkout-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap; /* for responsive */
+}
+
+.checkout-left,
+.checkout-right {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+/* Style for Order Summary Box */
+.checkout-right {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .checkout-left,
+  .checkout-right {
+    width: 100%;
+    padding: 0;
+  }
+  .checkout-right {
+    margin-top: 30px;
+    position: static;
+  }
+}
+/* Force WooCommerce Checkout Two Column Layout */
+.checkout-columns {
+  display: flex !important;
+  justify-content: space-between !important;
+  gap: 40px !important;
+  margin-top: 30px;
+  flex-wrap: nowrap !important; /* prevent stacking */
+}
+
+.checkout-left,
+.checkout-right {
+  flex: 1 1 50% !important;
+  max-width: 50% !important;
+  box-sizing: border-box;
+}
+
+/* Make right column sticky */
+.checkout-right {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+}
+
+/* Remove WooCommerce default 100% width from columns */
+.woocommerce .col2-set .col-1,
+.woocommerce .col2-set .col-2 {
+  width: 100% !important;
+  float: none !important;
+}
+
+/* Sidebar styles */
+.woocommerce-MyAccount-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.woocommerce-MyAccount-navigation ul li {
+  margin-bottom: 10px;
+}
+
+.woocommerce-MyAccount-navigation ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  text-decoration: none;
+  width: 120%;
+  transition: all 0.2s ease-in-out;
+}
+
+.woocommerce-MyAccount-navigation ul li a:hover,
+.woocommerce-MyAccount-navigation ul li.is-active a {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+/* Fix equal height columns */
+.my-account-page .row.g-0 > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-account-page .p-4 {
+  flex-grow: 1;
+}
+
+#discount-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.discount-popup .popup-content {
+  background: #fff;
+  display: flex;
+  border-radius: 12px;
+  max-width: 700px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.popup-image {
+  width: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.popup-text {
+  padding: 30px;
+  width: 60%;
+}
+
+.popup-text h3 {
+  margin-top: 0;
+  color: #b03e69;
+}
+
+#popup-close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* === Modern Cart Table Styling === */
+.woocommerce-cart-form table.shop_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.woocommerce-cart-form table.shop_table th {
+  background: #f9f9f9;
+  font-weight: 600;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.woocommerce-cart-form table.shop_table td {
+  padding: 20px 15px;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+/* Product Image */
+.woocommerce-cart-form table.shop_table .product-thumbnail img {
+  max-width: 70px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Product Name */
+.woocommerce-cart-form table.shop_table .product-name a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Remove Button */
+.woocommerce-cart-form table.shop_table .product-remove a {
+  font-size: 20px;
+  color: #ff4d4d;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.woocommerce-cart-form table.shop_table .product-remove a:hover {
+  color: #ff0000;
+}
+
+/* Quantity Input */
+.woocommerce-cart-form table.shop_table .quantity input.qty {
+  width: 60px;
+  padding: 6px 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.woocommerce-cart-form table.shop_table .quantity input.qty:focus {
+  border-color: #999;
+  outline: none;
+}
+
+/* === Coupon & Actions Row === */
+.woocommerce-cart-form .actions {
+  text-align: right;
+  padding: 15px;
+}
+
+.woocommerce-cart-form .coupon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.woocommerce-cart-form .coupon input {
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  flex: 1;
+}
+
+.woocommerce-cart-form .coupon button {
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hide Update Cart Button */
+.woocommerce-cart-form button[name=update_cart] {
+  display: none !important;
+}
+
+/* === Cart Totals Box === */
+.woocommerce-cart .cart-collaterals {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals {
+  width: 350px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.woocommerce-cart .cart_totals h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Totals Table */
+.woocommerce-cart .cart_totals table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.woocommerce-cart .cart_totals table tr th,
+.woocommerce-cart .cart_totals table tr td {
+  padding: 10px 0;
+  font-size: 15px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.woocommerce-cart .cart_totals table tr:last-child th,
+.woocommerce-cart .cart_totals table tr:last-child td {
+  border-bottom: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Checkout Button */
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
+/* === Cart Page Two Column Layout === */
+.woocommerce-cart .woocommerce {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 60px; /* Space before footer */
+}
+
+/* Left: Cart Table */
+.woocommerce-cart .woocommerce-cart-form {
+  flex: 1 1 50%;
+}
+
+/* Right: Cart Totals */
+.woocommerce-cart .cart-collaterals {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+  .woocommerce-cart .woocommerce {
+    flex-direction: column;
+  }
+  .woocommerce-cart .woocommerce-cart-form,
+  .woocommerce-cart .cart-collaterals {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .woocommerce-cart .cart-collaterals {
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
+/* === Cart Page Two Column Layout with Balanced Design === */
+.woocommerce-cart .woocommerce {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 70px; /* space before footer */
+}
+
+/* Cart Table (Left) */
+.woocommerce-cart .woocommerce-cart-form {
+  flex: 1 1 55%;
+}
+
+/* Cart Totals (Right) */
+.woocommerce-cart .cart-collaterals {
+  flex: 1 1 45%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals {
+  width: 100%;
+  max-width: 591px; /* Bigger totals box */
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-top: -2.5rem;
+}
+
+/* Make the tables inside totals box more spacious */
+.woocommerce-cart .cart_totals table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.woocommerce-cart .cart_totals table th,
+.woocommerce-cart .cart_totals table td {
+  padding: 12px;
+}
+
+/* Proceed to Checkout button full width */
+.woocommerce-cart .wc-proceed-to-checkout .checkout-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+/* Responsive for Tablets & Mobiles */
+@media (max-width: 992px) {
+  .woocommerce-cart .woocommerce {
+    flex-direction: column;
+  }
+  .woocommerce-cart .woocommerce-cart-form,
+  .woocommerce-cart .cart-collaterals {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .woocommerce-cart .cart-collaterals {
+    margin-top: 40px;
+    justify-content: center;
+  }
+  .woocommerce-cart .cart-collaterals .cart_totals {
+    max-width: 100%;
+  }
+}
+/* Hide WooCommerce messages on Cart page */
+.woocommerce-cart .woocommerce-message {
+  display: none !important;
+}
+
+/* ---------- Single Product Page Layout ---------- */
+.woocommerce.single-product .product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 4rem;
+}
+
+/* Left: Product Image */
+.woocommerce div.product div.images {
+  flex: 1 1 40%;
+  max-width: 500px;
+}
+
+.woocommerce div.product div.images img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+/* Right: Product Info */
+.woocommerce div.product div.summary {
+  flex: 1 1 50%;
+  max-width: 600px;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+/* Product title and price */
+.woocommerce div.product .product_title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.woocommerce div.product p.price {
+  font-size: 1.5rem;
+  color: #4CAF50;
+  margin-bottom: 1rem;
+}
+
+/* Quantity and Add to Cart */
+.woocommerce div.product form.cart {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.woocommerce div.product form.cart .quantity {
+  width: auto;
+}
+
+.woocommerce div.product .single_add_to_cart_button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.woocommerce div.product .single_add_to_cart_button:hover {
+  background-color: #0056b3;
+}
+
+/* Tabs styling */
+.woocommerce div.product .woocommerce-tabs {
+  margin-top: 3rem;
+}
+
+.woocommerce-Tabs-panel {
+  background: #fff;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+/* ---------- Related Products ---------- */
+.related.products {
+  margin-top: 4rem;
+  margin-left: 10px;
+}
+
+.related.products h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.related.products ul.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.related.products ul.products li.product {
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.related.products ul.products li.product:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.related.products ul.products li.product img {
+  height: 180px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.related.products .price {
+  color: #444;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.woocommerce .quantity .qty {
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+  padding: 2px 4px;
+  max-width: 90px;
+}
+
+.archive-reiser,
+.page-template-archive-reise,
+.aktuelle-reiser {
+  background-color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.archive-reiser h2,
+.page-template-archive-reise h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #2B3B42;
+  font-family: "Poppins", sans-serif;
+}
+
+.archive-reiser p,
+.page-template-archive-reise p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #4B606A;
+  font-family: "DM Sans", sans-serif;
+}
+
+.archive-reiser .btn-primary,
+.page-template-archive-reise .btn-primary {
+  background-color: #135B7C;
+  border: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 10px 30px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.archive-reiser .btn-primary:hover,
+.page-template-archive-reise .btn-primary:hover {
+  background-color: #104f6f;
+}

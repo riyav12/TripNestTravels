@@ -1,0 +1,80 @@
+/* Sidebar styles */
+.woocommerce-MyAccount-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.woocommerce-MyAccount-navigation ul li {
+  margin-bottom: 10px;
+}
+
+.woocommerce-MyAccount-navigation ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  text-decoration: none;
+  width: 120%;
+  transition: all 0.2s ease-in-out;
+}
+
+.woocommerce-MyAccount-navigation ul li a:hover,
+.woocommerce-MyAccount-navigation ul li.is-active a {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+/* Fix equal height columns */
+.my-account-page .row.g-0 > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-account-page .p-4 {
+  flex-grow: 1;
+}
+
+
+#discount-popup {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.discount-popup .popup-content {
+  background: #fff;
+  display: flex;
+  border-radius: 12px;
+  max-width: 700px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.popup-image {
+  width: 40%;
+  object-fit: cover;
+}
+
+.popup-text {
+  padding: 30px;
+  width: 60%;
+}
+
+.popup-text h3 {
+  margin-top: 0;
+  color: #b03e69;
+}
+
+#popup-close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 24px;
+  cursor: pointer;
+}

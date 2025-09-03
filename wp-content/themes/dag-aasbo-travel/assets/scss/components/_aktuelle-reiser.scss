@@ -1,0 +1,137 @@
+.aktuelle-reiser {
+  background-color: $color-white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.aktuelle-reiser h2 {
+   @include font-size(3, 1.2); // 48px
+  @extend .font-weight-semi-bold;
+  color: $color-secondary;
+  font-family: $font-primary;
+}
+
+.aktuelle-reiser p {
+   @include font-size(1.125, 1.6);  // 18px
+  color: $color-light;
+  @extend .font-weight-regular;
+  font-family: $font-secondary;
+}
+
+.aktuelle-reiser a {
+  color: $color-link-muted;
+  text-decoration: underline;
+}
+
+.reise-image-wrapper {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+
+.reise-image-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.reise-image-wrapper .badge {
+  @include font-size(0.75, 1.3); // 12px
+  padding: 0.35em 0.6em;
+  border-radius: 6px;
+  background-color: $color-white;
+  color: $color-dark-gray;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.reise-image-wrapper .badge img {
+  width: 16px;
+  height: 16px;
+}
+
+.reise-card .p-2 {
+  padding: 16px !important;
+}
+
+.reise-card .fw-semibold {
+ @include font-size(1.25, 1.4); // 20px
+  font-family: $font-secondary;
+  color: $color-secondary;
+  @extend .font-weight-semi-bold;
+}
+
+.reise-card p.text-muted {
+ @include font-size(1, 1.5); // 16px
+  font-family: $font-secondary;
+  color: $color-light !important;
+  margin-bottom: 0.5rem;
+}
+
+.reise-card p.text-muted img {
+  margin-right: 6px;
+}
+
+.badge-light-blue {
+  background-color: $color-badge-bg;
+  font-family: $font-secondary;
+  @extend .font-weight-regular;
+ @include font-size(0.8125, 1.4); // 13px
+  color: $color-black;
+  width: fit-content;
+}
+
+.btn.btn-primary {
+  background-color: $color-button;
+  border: none;
+  font-family: $font-secondary;
+   @include font-size(1, 1.5); // 16px
+  padding: 10px 30px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn.btn-primary:hover {
+  background-color: $color-button-hover;
+}
+
+.fw-semibold .mb-1 {
+  @extend .font-weight-semi-bold;
+  color: $color-secondary;
+  font-family: $font-secondary;
+   @include font-size(1.25, 1.5); // 20px
+}
+
+.text-muted small .mb-1 {
+  color: $color-light;
+  font-family: $font-secondary;
+   @include font-size(1, 1.5); // 16px
+  @extend .font-weight-regular;
+}
+
+.text-muted small {
+  color: $color-light;
+  font-family: $font-secondary;
+   @include font-size(1, 1.5);// 16px
+  @extend .font-weight-regular;
+}
+
+.reise-btn {
+  background-color: $color-button;
+  border: none;
+  font-family: $font-secondary;
+  @include font-size(1, 1.5); // 16px
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: $color-white !important;
+  text-decoration: none !important;
+  display: inline-block;
+
+  &:hover {
+    background-color: $color-button-hover;
+    color: $color-white !important;
+    text-decoration: none !important;
+  }
+}

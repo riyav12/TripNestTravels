@@ -1,0 +1,61 @@
+{
+  "key": "group_cruise_section",
+  "title": "Cruise Section",
+  "fields": [
+    {
+      "key": "field_cruise_heading",
+      "label": "Cruise Heading",
+      "name": "cruise_heading",
+      "type": "text"
+    },
+    {
+      "key": "field_cruise_paragraph1",
+      "label": "Cruise Paragraph 1",
+      "name": "cruise_paragraph1",
+      "type": "textarea"
+    },
+    {
+      "key": "field_cruise_paragraph2",
+      "label": "Cruise Paragraph 2",
+      "name": "cruise_paragraph2",
+      "type": "textarea"
+    },
+    {
+      "key": "field_cruise_button_text",
+      "label": "Cruise Button Text",
+      "name": "cruise_button_text",
+      "type": "text"
+    },
+    {
+      "key": "field_cruise_button_url",
+      "label": "Cruise Button URL",
+      "name": "cruise_button_url",
+      "type": "url"
+    },
+    {
+      "key": "field_cruise_image",
+      "label": "Cruise Image",
+      "name": "cruise_image",
+      "type": "image",
+      "return_format": "url",
+      "preview_size": "medium",
+      "library": "all"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "page"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "active": true,
+  "description": ""
+}

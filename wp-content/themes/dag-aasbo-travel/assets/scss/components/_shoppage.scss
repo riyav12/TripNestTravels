@@ -1,0 +1,316 @@
+.shop-sidebar {
+  background: $color-bg-gray-lightest;
+  padding: 20px;
+  border: 1px solid $color-border-muted;
+}
+.shop-sidebar .widget {
+  margin-bottom: 25px;
+}
+.shop-sidebar .widget-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+
+/* Add in your child theme CSS */
+.shop-sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+.shop-sidebar label {
+  cursor: pointer;
+  display: block;
+  margin-bottom: 6px;
+}
+
+
+/* Product Grid Layout */
+.products {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Each Product Card */
+.product-card {
+  background-color: $color-white;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem $box-shadow-strong;
+}
+
+/* Image styling */
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+/* Title */
+.product-title a {
+  font-size: 1rem;
+}
+
+/* Price */
+.product-price {
+  @extend .font-weight-medium;
+  font-size: 1rem;
+  color: $color-dark-text;
+}
+
+/* Add to cart */
+.product-card .button {
+  background-color: $color-link-hover;
+  color: $color-white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.product-card .button:hover {
+  background-color: $color-button-deep-blue;
+}
+
+/* Hover shadow effect */
+.hover-shadow:hover {
+  box-shadow: 0 0 20px $box-shadow-heavy;
+}
+
+
+.quantity-picker {
+  border: 1px solid $color-border-muted;
+  border-radius: 20px;
+  padding: 2px 4px;
+  max-width: 90px; // Limit total width
+
+  button {
+    background: none;
+    border: none;
+    font-size: 0.9rem;
+    line-height: 1;
+    padding: 0 4px;
+  }
+
+  .qty-input {
+    width: 30px;
+    font-size: 0.9rem;
+    text-align: center;
+    border: none;
+    background: transparent;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .cart {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+
+    .quantity-picker,
+    .button {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}
+
+/* Completely hide wishlist button text labels */
+.yith-wcwl-add-to-wishlist-button__label,
+.yith-wcwl-wishlistaddedbrowse,
+.yith-wcwl-wishlistexistsbrowse,
+.yith-wcwl-add-button > span,
+.feedback {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ===============================
+   WISHLIST ICON - GENERAL STYLES
+   =============================== */
+
+/* Base icon styles (empty heart by default) */
+.wishlist-icon,
+.wishlist-visible-icon,
+.wishlist-clean-icon i {
+  font-size: 20px;
+  color: #bbb; /* Light grey for default */
+  background: #fff;
+  padding: 5px;
+  border-radius: 50%;
+ 
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+/* On hover - highlight heart */
+.wishlist-icon:hover,
+.wishlist-visible-icon:hover,
+.wishlist-clean-icon i:hover {
+  color: #e63946; /* Red on hover */
+}
+
+/* When product is already wishlisted */
+.wishlist-icon.exists,
+.wishlist-visible-icon.exists,
+.yith-wcwl-wishlistadded .wishlist-clean-icon i,
+.yith-wcwl-wishlistexists .wishlist-clean-icon i {
+  color: #e63946 !important; /* Red filled heart */
+}
+
+ .yith-wcwl-share{
+  float:none;
+}
+/* ===============================
+   POSITIONING INSIDE PRODUCT CARD
+   =============================== */
+
+.product-image {
+  position: relative;
+}
+
+/* Absolute position top-right inside product image */
+.product-card .yith-wcwl-add-to-wishlist {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+/* Link style for the heart icon inside product card */
+.product-card .yith-wcwl-add-to-wishlist a {
+  color: #ccc;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.product-card .yith-wcwl-add-to-wishlist a:hover,
+.product-card .yith-wcwl-add-to-wishlist.exists a {
+  color: #e63946; /* Red heart when hovered or already added */
+}
+
+/* Optional alignment class (if needed) */
+.wishlist-button {
+  text-align: right;
+  padding-right: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+#active-filters ul {
+  list-style: none;
+  padding: 0;
+}
+#active-filters li {
+  display: inline-block;
+  margin: 4px;
+  padding: 6px 10px;
+  background: #f0f0f0;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.category-card {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  transition: transform 0.3s ease;
+}
+
+.category-card img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.category-card h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+.category-box {
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.category-box:hover {
+  transform: scale(1.02);
+}
+
+.category-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+  width: 100%;
+  color: #fff;
+}
+
+.category-overlay h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Arrows - now positioned above */
+.custom-arrow {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  cursor: pointer;
+  position: absolute;
+  top: -50px; /* move arrows above the slider */
+  color: #fff;
+}
+
+.swiper-button-prev.custom-arrow {
+  left: 2px;
+  color: #fff;
+}
+
+.swiper-button-next.custom-arrow {
+  right: 2px;
+  color: #fff;
+}
+
+/* Hide arrows when disabled */
+.swiper-button-disabled {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Extra margin for "Shop Now" button */
+.shop-now-main {
+  margin-top: 60px;
+}

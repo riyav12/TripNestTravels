@@ -1,0 +1,272 @@
+/* === Modern Cart Table Styling === */
+.woocommerce-cart-form table.shop_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.woocommerce-cart-form table.shop_table th {
+    background: #f9f9f9;
+    font-weight: 600;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.woocommerce-cart-form table.shop_table td {
+    padding: 20px 15px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+/* Product Image */
+.woocommerce-cart-form table.shop_table .product-thumbnail img {
+    max-width: 70px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Product Name */
+.woocommerce-cart-form table.shop_table .product-name a {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Remove Button */
+.woocommerce-cart-form table.shop_table .product-remove a {
+    font-size: 20px;
+    color: #ff4d4d;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.woocommerce-cart-form table.shop_table .product-remove a:hover {
+    color: #ff0000;
+}
+
+/* Quantity Input */
+.woocommerce-cart-form table.shop_table .quantity input.qty {
+    width: 60px;
+    padding: 6px 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.woocommerce-cart-form table.shop_table .quantity input.qty:focus {
+    border-color: #999;
+    outline: none;
+}
+
+/* === Coupon & Actions Row === */
+.woocommerce-cart-form .actions {
+    text-align: right;
+    padding: 15px;
+}
+
+.woocommerce-cart-form .coupon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.woocommerce-cart-form .coupon input {
+    padding: 12px 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    flex: 1;
+}
+
+.woocommerce-cart-form .coupon button {
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hide Update Cart Button */
+.woocommerce-cart-form button[name="update_cart"] {
+    display: none !important;
+}
+
+/* === Cart Totals Box === */
+.woocommerce-cart .cart-collaterals {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals {
+    width: 350px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.woocommerce-cart .cart_totals h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Totals Table */
+.woocommerce-cart .cart_totals table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.woocommerce-cart .cart_totals table tr th,
+.woocommerce-cart .cart_totals table tr td {
+    padding: 10px 0;
+    font-size: 15px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.woocommerce-cart .cart_totals table tr:last-child th,
+.woocommerce-cart .cart_totals table tr:last-child td {
+    border-bottom: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Checkout Button */
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+
+/* === Cart Page Two Column Layout === */
+.woocommerce-cart .woocommerce {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px; /* Space before footer */
+}
+
+/* Left: Cart Table */
+.woocommerce-cart .woocommerce-cart-form {
+    flex: 1 1 50%;
+}
+
+/* Right: Cart Totals */
+.woocommerce-cart .cart-collaterals {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals {
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    .woocommerce-cart .woocommerce {
+        flex-direction: column;
+    }
+
+    .woocommerce-cart .woocommerce-cart-form,
+    .woocommerce-cart .cart-collaterals {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .woocommerce-cart .cart-collaterals {
+        justify-content: center;
+        margin-top: 30px;
+    }
+}
+
+/* === Cart Page Two Column Layout with Balanced Design === */
+.woocommerce-cart .woocommerce {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 70px; /* space before footer */
+}
+
+/* Cart Table (Left) */
+.woocommerce-cart .woocommerce-cart-form {
+    flex: 1 1 55%;
+}
+
+/* Cart Totals (Right) */
+.woocommerce-cart .cart-collaterals {
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals {
+    width: 100%;
+    max-width: 591px; /* Bigger totals box */
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    margin-top:-2.5rem
+}
+
+
+/* Make the tables inside totals box more spacious */
+.woocommerce-cart .cart_totals table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.woocommerce-cart .cart_totals table th,
+.woocommerce-cart .cart_totals table td {
+    padding: 12px;
+}
+
+/* Proceed to Checkout button full width */
+.woocommerce-cart .wc-proceed-to-checkout .checkout-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+/* Responsive for Tablets & Mobiles */
+@media (max-width: 992px) {
+    .woocommerce-cart .woocommerce {
+        flex-direction: column;
+    }
+
+    .woocommerce-cart .woocommerce-cart-form,
+    .woocommerce-cart .cart-collaterals {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .woocommerce-cart .cart-collaterals {
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    .woocommerce-cart .cart-collaterals .cart_totals {
+        max-width: 100%;
+    }
+}
+/* Hide WooCommerce messages on Cart page */
+.woocommerce-cart .woocommerce-message {
+    display: none !important;
+}

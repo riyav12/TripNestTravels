@@ -1,0 +1,24 @@
+@use '../base/variables' as variables;
+@use '../base/mixins' as mixins;
+
+.testimonials {
+  .testimonial-card {
+    background-color: variables.$color-light-blue-bg !important;
+    border-radius: var(--bs-border-radius) !important;
+  }
+
+  .testimonial-text {
+    @include mixins.font-size(1.25); // 20px
+    @extend .font-weight-regular;
+  }
+
+  .testimonial-name {
+    font-family: variables.$font-secondary;
+    @extend .font-weight-regular;
+    @include mixins.font-size(0.875); // 14px
+  }
+
+  .object-fit-cover {
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,192 @@
+
+@use '../base/variables';
+@use '../base/mixins';
+@use '../helpers/helpers';
+
+.footer-logo {
+  max-width: 180px;
+}
+
+.footer-description {
+  font-family: 'DM Sans', sans-serif;
+ @include mixins.font-size(0.9375, 1); 
+  font-weight: 400;
+}
+
+.fs-15 {
+  @include mixins.font-size(0.9375, 1);
+}
+
+.ml-7 {
+  margin-left: 7px;
+}
+
+.ml-neg-7 li a {
+  margin-left: -7px;
+}
+
+.pl-19 {
+  padding-left: 19px;
+}
+
+.pl-22 {
+  padding-left: 22px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.pl-60 {
+  padding-left: 60px;
+}
+
+/* Footer Styles */
+.site-footer {
+  background-color:$color-bg-light-pink;
+  font-family: 'DM', sans-serif;
+   @include mixins.font-size(1, 1); // 16px
+  color: $color-black;
+}
+
+.site-footer .footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.site-footer .footer-column {
+  flex: 1 1 200px;
+  min-width: 180px;
+}
+
+.site-footer .footer-column h4 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: $color-heading-alt;
+   @include mixins.font-size(1, 1.125); 
+}
+
+.site-footer .footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.site-footer .footer-column ul li {
+  margin-bottom: 6px;
+}
+
+.site-footer .footer-column ul li a {
+  color: $color-button;
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.site-footer .footer-column ul li a:hover {
+  background-color:$color-light-blue-hover;
+  color: $color-link-hover-alt;
+  text-decoration: none;
+}
+
+.site-footer .highlight-link {
+  display: inline-block;
+  background-color: $color-light-blue-hover;
+  color: $color-link-hover-alt;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.site-footer .footer-link-btn {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 8px;
+@include mixins.font-size(0.875, 1); 
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.site-footer .footer-link-btn.light {
+  background-color: $color-light-blue-hover;
+  color: $color-button-dark;
+}
+
+.site-footer .footer-link-btn.dark {
+  background-color: $color-button-dark;
+  color:$color-white;
+}
+
+.site-footer .footer-link-btn:hover {
+  opacity: 0.9;
+}
+
+.site-footer hr {
+  border-top: 1px solid $color-border-default;
+}
+
+
+.site-footer h4 {
+  @include mixins.font-size(1, 1.125); 
+  margin-bottom: 10px;
+  @extend .font-weight-semi-bold
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: $color-text-muted;
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-links a:hover {
+  background-color: $color-light-blue-hover;
+  color: $color-link-hover-alt;
+  text-decoration: none;
+}
+
+.footer-link-btn {
+  padding: 6px 14px;
+  @include mixins.font-size(0.875, 1);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-link-btn.light {
+  background:$color-gray-light;
+  color:$color-black
+}
+
+.footer-link-btn.light:hover {
+  background:$color-border-muted;
+}
+
+.footer-link-btn.dark {
+  background: $color-black;
+  color: $color-white;
+}
+
+.footer-link-btn.dark:hover {
+  background: $color-dark-gray;
+}

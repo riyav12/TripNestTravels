@@ -1,0 +1,120 @@
+/* ---------- Single Product Page Layout ---------- */
+.woocommerce.single-product .product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 4rem;
+}
+
+/* Left: Product Image */
+.woocommerce div.product div.images {
+  flex: 1 1 40%;
+  max-width: 500px;
+}
+.woocommerce div.product div.images img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-left:10px;
+}
+
+/* Right: Product Info */
+.woocommerce div.product div.summary {
+  flex: 1 1 50%;
+  max-width: 600px;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+/* Product title and price */
+.woocommerce div.product .product_title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.woocommerce div.product p.price {
+  font-size: 1.5rem;
+  color: #4CAF50;
+  margin-bottom: 1rem;
+}
+
+/* Quantity and Add to Cart */
+.woocommerce div.product form.cart {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.woocommerce div.product form.cart .quantity {
+  width: auto;
+}
+.woocommerce div.product .single_add_to_cart_button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.woocommerce div.product .single_add_to_cart_button:hover {
+  background-color: #0056b3;
+}
+
+/* Tabs styling */
+.woocommerce div.product .woocommerce-tabs {
+  margin-top: 3rem;
+}
+.woocommerce-Tabs-panel {
+  background: #fff;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+/* ---------- Related Products ---------- */
+.related.products {
+  margin-top: 4rem;
+  margin-left:10px;
+}
+.related.products h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.related.products ul.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+.related.products ul.products li.product {
+ 
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.related.products ul.products li.product:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.related.products ul.products li.product img {
+  height: 180px;
+  object-fit: contain;
+}
+.related.products .price {
+  color: #444;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.woocommerce .quantity .qty{
+
+
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+    padding: 2px 4px;
+    max-width: 90px;
+
+}
+

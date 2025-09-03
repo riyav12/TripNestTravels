@@ -1,0 +1,97 @@
+@use '../base/variables' ;
+@use '../base/mixins'  ;
+@use '../helpers/helpers';
+
+.group-help {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.group-help .group-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+
+  @include respond(md) {
+    margin-bottom: 2rem;
+  }
+}
+
+.group-help .info-card {
+  background-color:$color-white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px $box-shadow-light;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px $box-shadow-hover;
+  }
+
+  h6 {
+    font-family: $font-primary;
+    @extend .font-weight-semi-bold;
+    color: $color-dark-heading;
+  }
+
+  p {
+    @include mixins.font-size(0.9375); // 15px
+    font-family: $font-secondary;
+    color: $color-light;
+    margin-bottom: 1rem;
+    @extend .font-weight-regular;
+  }
+
+  .btn {
+    background-color: $color-button;
+    color: variables.$color-white;
+    padding: 6px 16px;
+   @include mixins.font-size(0.875, 1.8); // 14px
+    @extend .font-weight-medium;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: $color-button-hover;
+    }
+  }
+}
+
+.group-help h2 {
+  @include mixins.font-size(2, 1.2); // 32px
+  @extend .font-weight-semi-bold;
+  font-family: $font-primary;
+  color: $color-dark-heading;
+}
+
+.group-help p.lead {
+  @include mixins.font-size(1, 1.7);  // 16px
+  font-family: $font-secondary;
+  color: $color-light;
+  @extend .font-weight-regular;
+  margin-bottom: 1.5rem;
+}
+
+.bg-light-blue {
+  background-color:$color-light-blue-bg;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.group-help .group-title {
+  @include mixins.font-size(3); // 3rem = 48px
+  font-family: variables.$font-primary;
+  color: variables.$color-dark-heading;
+  @extend .font-weight-regular;
+  text-align: center;
+}
+
+.group-help .group-description {
+  @include mixins.font-size(1.25); // 1.25rem = 20px
+  font-family: variables.$font-secondary;
+ @extend .font-weight-regular;
+  text-align: center;
+  color: variables.$color-light;
+}

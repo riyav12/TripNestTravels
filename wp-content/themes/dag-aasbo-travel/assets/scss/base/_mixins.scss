@@ -1,0 +1,21 @@
+@use 'variables';
+
+// Media query
+@mixin respond($breakpoint) {
+  @if $breakpoint == sm {
+    @media (max-width: variables.$breakpoint-sm) {
+      @content;
+    }
+  }
+  @if $breakpoint == md {
+    @media (max-width: variables.$breakpoint-md) {
+      @content;
+    }
+  }
+}
+
+// Font size
+@mixin font-size($size, $line-height: 1.5) {
+  font-size: $size * 1rem;
+  line-height: $line-height;
+}

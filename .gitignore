@@ -1,0 +1,66 @@
+# ========================
+# WordPress Core
+# ========================
+/wp-admin/
+wp-includes/
+
+# Root files (don’t track sensitive / core files)
+wp-config.php
+index.php
+license.txt
+readme.html
+wp-*.php
+.htaccess
+.maintenance
+xmlrpc.php
+
+# ========================
+# OS / System Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs / Database / Cache
+# ========================
+*.log
+*.sql
+*.sqlite
+wp-content/cache/
+
+# ========================
+# Node / Vendor (if used)
+# ========================
+node_modules/
+vendor/
+
+# ========================
+# Uploads (media files, can be huge)
+# ========================
+wp-content/uploads/
+
+# ========================
+# Languages (translations downloaded from WP.org)
+# ========================
+wp-content/languages/
+
+# ========================
+# Plugins
+# ========================
+# Ignore all plugins by default
+wp-content/plugins/*
+
+# Allow tracking custom plugins (uncomment and replace folder name if you create one)
+!wp-content/plugins/riya-custom-plugin/
+
+# ========================
+# Themes
+# ========================
+# Track only your custom theme
+!wp-content/themes/
+!wp-content/themes/dag-aasbo-travel/
+
+# ========================
+# Other Git files
+# ========================
+!.gitignore

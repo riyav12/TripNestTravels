@@ -1,0 +1,65 @@
+{
+  "key": "group_reise_fra_section",
+  "title": "Hvor skal du reise fra Section",
+  "fields": [
+    {
+      "key": "field_reise_fra_image",
+      "label": "Section Image",
+      "name": "reise_fra_image",
+      "type": "image",
+      "return_format": "array",
+      "preview_size": "medium",
+      "library": "all"
+    },
+    {
+      "key": "field_reise_fra_title",
+      "label": "Section Title",
+      "name": "reise_fra_title",
+      "type": "text"
+    },
+    {
+      "key": "field_reise_fra_description",
+      "label": "Section Description",
+      "name": "reise_fra_description",
+      "type": "wysiwyg",
+      "tabs": "visual",
+      "media_upload": 0
+    },
+    {
+      "key": "field_reise_fra_links",
+      "label": "Reise Link List",
+      "name": "reise_fra_links",
+      "type": "repeater",
+      "min": 0,
+      "layout": "table",
+      "button_label": "Add Link",
+      "sub_fields": [
+        {
+          "key": "field_link_text",
+          "label": "Link Text",
+          "name": "link_text",
+          "type": "text"
+        },
+        {
+          "key": "field_link_url",
+          "label": "Link URL",
+          "name": "link_url",
+          "type": "url"
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "template-yourfile.php"
+      }
+    ]
+  ],
+  "style": "seamless",
+  "active": true,
+  "description": "Fields for Hvor skal du reise fra? section",
+  "position": "acf_after_title"
+}

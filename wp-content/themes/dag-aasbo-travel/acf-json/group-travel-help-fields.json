@@ -1,0 +1,126 @@
+[
+  {
+    "key": "group_travel_help_section",
+    "title": "Group Travel Help fields",
+    "fields": [
+      {
+        "key": "field_help_image",
+        "label": "Left Image",
+        "name": "group_help_image",
+        "type": "image",
+        "return_format": "array"
+      },
+      {
+        "key": "field_help_heading",
+        "label": "Heading",
+        "name": "group_help_title",
+        "type": "text"
+      },
+      {
+        "key": "field_help_desc",
+        "label": "Description",
+        "name": "group_help_description",
+        "type": "textarea"
+      },
+
+      
+      {
+        "key": "field_card1_title",
+        "label": "Card 1 Title",
+        "name": "group_card1_title",
+        "type": "text"
+      },
+      {
+        "key": "field_card1_text",
+        "label": "Card 1 Text",
+        "name": "group_card1_text",
+        "type": "textarea"
+      },
+      {
+        "key": "field_card1_button",
+        "label": "Card 1 Button Text",
+        "name": "group_card1_button",
+        "type": "text"
+      },
+      {
+        "key": "field_card1_link",
+        "label": "Card 1 Link",
+        "name": "group_card1_link",
+        "type": "url"
+      },
+      
+      {
+        "key": "field_card2_title",
+        "label": "Card 2 Title",
+        "name": "group_card2_title",
+        "type": "text"
+      },
+      {
+        "key": "field_card2_text",
+        "label": "Card 2 Text",
+        "name": "group_card2_text",
+        "type": "textarea"
+      },
+      {
+        "key": "field_card2_button",
+        "label": "Card 2 Button Text",
+        "name": "group_card2_button",
+        "type": "text"
+      },
+      {
+        "key": "field_card2_link",
+        "label": "Card 2 Link",
+        "name": "group_card2_link",
+        "type": "url"
+      },
+
+     
+      {
+        "key": "field_card3_title",
+        "label": "Card 3 Title",
+        "name": "group_card3_title",
+        "type": "text"
+      },
+      {
+        "key": "field_card3_text",
+        "label": "Card 3 Text",
+        "name": "group_card3_text",
+        "type": "textarea"
+      },
+      {
+        "key": "field_card3_button",
+        "label": "Card 3 Button Text",
+        "name": "group_card3_button",
+        "type": "text"
+      },
+      {
+        "key": "field_card3_link",
+        "label": "Card 3 Link",
+        "name": "group_card3_link",
+        "type": "url"
+      },
+      {
+        "key": "field_card3_fade",
+        "label": "Fade Card 3?",
+        "name": "group_card3_faded",
+        "type": "true_false",
+        "ui": 1,
+        "message": "Check to fade this card"
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "page"
+        }
+      ]
+    ],
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true
+  }
+]

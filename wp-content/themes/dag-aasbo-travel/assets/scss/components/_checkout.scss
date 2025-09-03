@@ -1,0 +1,143 @@
+.checkout-page {
+  padding: 2rem;
+
+  .col2-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .col-1, .col-2 {
+    flex: 1 1 48%;
+  }
+
+  h3#order_review_heading {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+  }
+
+  #order_review {
+    background-color: $color-bg-gray-lightest;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid $color-border-muted;
+  }
+}
+/* Updated Billing Form Layout */
+.custom-checkout-details {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.woocommerce-billing-fields .form-row {
+  margin-bottom: 24px;
+}
+
+/* Each field layout */
+.woocommerce-billing-fields .form-row-firstname,
+.woocommerce-billing-fields .form-row-lastname {
+  grid-column: span 6;
+}
+
+.woocommerce-billing-fields .form-row-country,
+.woocommerce-billing-fields .form-row-address_1,
+.woocommerce-billing-fields .form-row-address_2 {
+  grid-column: span 12;
+}
+
+.woocommerce-billing-fields .form-row-city,
+.woocommerce-billing-fields .form-row-postcode {
+  grid-column: span 6;
+}
+
+.woocommerce-billing-fields .form-row-state {
+  grid-column: span 6;
+}
+
+/* Ensure form inputs stretch full inside grid */
+.woocommerce-billing-fields .form-row input,
+.woocommerce-billing-fields .form-row select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid $color-border-default;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.woocommerce-billing-fields__field-wrapper{
+    margin-left:-32px;
+}
+
+
+/* Checkout Page Two-Column Layout */
+.checkout-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap; /* for responsive */
+}
+
+.checkout-left,
+.checkout-right {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+/* Style for Order Summary Box */
+.checkout-right {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .checkout-left,
+  .checkout-right {
+    width: 100%;
+    padding: 0;
+  }
+  .checkout-right {
+    margin-top: 30px;
+    position: static;
+  }
+}
+
+/* Force WooCommerce Checkout Two Column Layout */
+.checkout-columns {
+  display: flex !important;
+  justify-content: space-between !important;
+  gap: 40px !important;
+  margin-top: 30px;
+  flex-wrap: nowrap !important; /* prevent stacking */
+}
+
+.checkout-left,
+.checkout-right {
+  flex: 1 1 50% !important;
+  max-width: 50% !important;
+  box-sizing: border-box;
+}
+
+/* Make right column sticky */
+.checkout-right {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+}
+
+/* Remove WooCommerce default 100% width from columns */
+.woocommerce .col2-set .col-1,
+.woocommerce .col2-set .col-2 {
+  width: 100% !important;
+  float: none !important;
+}
