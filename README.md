@@ -38,6 +38,8 @@ repo-root/
 4. In WP Admin → Appearance → Themes, activate **Dag Aasbø Travel**.
 5. Configure ACF fields and WooCommerce.
 
+**Note:** Make sure your local server (XAMPP) is running before setup.
+
 ## 🌿 Branching Workflow
 - `dev` → development branch  
 - `feature/*` → for new features (example: `feature/homepage`)
